@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/reacttestapp/static/css/main.d4ef5819.chunk.css",
-    "main.js": "/reacttestapp/static/js/main.a467e358.chunk.js",
-    "main.js.map": "/reacttestapp/static/js/main.a467e358.chunk.js.map",
-    "runtime-main.js": "/reacttestapp/static/js/runtime-main.9c87bce7.js",
-    "runtime-main.js.map": "/reacttestapp/static/js/runtime-main.9c87bce7.js.map",
-    "static/js/2.0fd60553.chunk.js": "/reacttestapp/static/js/2.0fd60553.chunk.js",
-    "static/js/2.0fd60553.chunk.js.map": "/reacttestapp/static/js/2.0fd60553.chunk.js.map",
-    "index.html": "/reacttestapp/index.html",
-    "precache-manifest.9b2491f740df8145c9ff9ae82b1f4b2d.js": "/reacttestapp/precache-manifest.9b2491f740df8145c9ff9ae82b1f4b2d.js",
-    "service-worker.js": "/reacttestapp/service-worker.js",
-    "static/css/main.d4ef5819.chunk.css.map": "/reacttestapp/static/css/main.d4ef5819.chunk.css.map",
-    "static/js/2.0fd60553.chunk.js.LICENSE.txt": "/reacttestapp/static/js/2.0fd60553.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/reacttestapp/static/media/VarelaRound-Regular.159cb67f.ttf",
-    "static/media/logo.jpg": "/reacttestapp/static/media/logo.8f27f5c5.jpg"
+    "main.css": "./static/css/main.239cc3fc.chunk.css",
+    "main.js": "./static/js/main.ab17f5ef.chunk.js",
+    "main.js.map": "./static/js/main.ab17f5ef.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.bc9b1730.js",
+    "runtime-main.js.map": "./static/js/runtime-main.bc9b1730.js.map",
+    "static/js/2.d29b9ced.chunk.js": "./static/js/2.d29b9ced.chunk.js",
+    "static/js/2.d29b9ced.chunk.js.map": "./static/js/2.d29b9ced.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.909274a2cab2962f1b2c469f1cbf1652.js": "./precache-manifest.909274a2cab2962f1b2c469f1cbf1652.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.239cc3fc.chunk.css.map": "./static/css/main.239cc3fc.chunk.css.map",
+    "static/js/2.d29b9ced.chunk.js.LICENSE.txt": "./static/js/2.d29b9ced.chunk.js.LICENSE.txt",
+    "static/media/main.css": "./static/media/VarelaRound-Regular.159cb67f.ttf",
+    "static/media/logo.jpg": "./static/media/logo.8f27f5c5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c87bce7.js",
-    "static/js/2.0fd60553.chunk.js",
-    "static/css/main.d4ef5819.chunk.css",
-    "static/js/main.a467e358.chunk.js"
+    "static/js/runtime-main.bc9b1730.js",
+    "static/js/2.d29b9ced.chunk.js",
+    "static/css/main.239cc3fc.chunk.css",
+    "static/js/main.ab17f5ef.chunk.js"
   ]
 }
