@@ -26,7 +26,7 @@ export default function SubMenuSelected({ match }) {
       width: 400,
     },
     select: {
-      width: native ? "80%" : 400,
+      width: native ? "100%" : 400,
     },
     btn: {
       width: 50,
@@ -209,8 +209,9 @@ export default function SubMenuSelected({ match }) {
               }
             ></img>
           </div>
-          <div className={styles.sub_title}>Secilen Extra Lezzetler</div>
-          <div className={styles.sub_menu_images}>
+          <div>
+            <div className={styles.sub_title}>Secilen Extra Lezzetler</div>
+            <div className={styles.sub_menu_images}></div>
             {addedItems
               .filter((item, pos) => {
                 return addedItems.indexOf(item) == pos;

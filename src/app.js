@@ -30,7 +30,7 @@ export default function App() {
   });
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <TopHeader></TopHeader>
       <Header></Header>
       <SubHeader></SubHeader>
@@ -43,8 +43,7 @@ export default function App() {
         <Route path="/search" component={Searching}></Route>
       </Switch>
       {native ? "" : <ScrollTopArrow></ScrollTopArrow>}
-      <Footer></Footer>
       <Link id="search_dummy" to="/search"></Link>
-    </HashRouter>
+    </BrowserRouter>
   );
 }

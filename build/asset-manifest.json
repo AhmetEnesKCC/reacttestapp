@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reacttestapp/static/css/main.d4ef5819.chunk.css",
+    "main.js": "/reacttestapp/static/js/main.7c211d14.chunk.js",
+    "main.js.map": "/reacttestapp/static/js/main.7c211d14.chunk.js.map",
+    "runtime-main.js": "/reacttestapp/static/js/runtime-main.9c87bce7.js",
+    "runtime-main.js.map": "/reacttestapp/static/js/runtime-main.9c87bce7.js.map",
+    "static/js/2.f5db8722.chunk.js": "/reacttestapp/static/js/2.f5db8722.chunk.js",
+    "static/js/2.f5db8722.chunk.js.map": "/reacttestapp/static/js/2.f5db8722.chunk.js.map",
+    "index.html": "/reacttestapp/index.html",
+    "precache-manifest.0216303ed44883562508484a935e3c85.js": "/reacttestapp/precache-manifest.0216303ed44883562508484a935e3c85.js",
+    "service-worker.js": "/reacttestapp/service-worker.js",
+    "static/css/main.d4ef5819.chunk.css.map": "/reacttestapp/static/css/main.d4ef5819.chunk.css.map",
+    "static/js/2.f5db8722.chunk.js.LICENSE.txt": "/reacttestapp/static/js/2.f5db8722.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/reacttestapp/static/media/VarelaRound-Regular.159cb67f.ttf",
+    "static/media/logo.jpg": "/reacttestapp/static/media/logo.8f27f5c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c87bce7.js",
+    "static/js/2.f5db8722.chunk.js",
+    "static/css/main.d4ef5819.chunk.css",
+    "static/js/main.7c211d14.chunk.js"
+  ]
+}
