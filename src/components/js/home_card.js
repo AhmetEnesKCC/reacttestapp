@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from "react";
 import styles from "../module css/home_card.module.css";
 import { Parallax } from "react-scroll-parallax";
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 export default function HomeCard(props) {
   const dispatch = useDispatch();
+  const native = useSelector((state) => state.native);
   const homeCardRef = useRef();
   const goTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -22,7 +23,7 @@ export default function HomeCard(props) {
               src={"https://raw.githubusercontent.com/AhmetEnesKCC/reacttestapp/master/public/src/" + props.image}
             ></img>
           </div>
-          <Parallax y={[-40, 50]}>
+          <Parallax y={native ? [-30, 0] : [-40, 50]}>
             <div className={[styles.card_title].join(" ")}>{props.name}</div>
           </Parallax>
         </div>
