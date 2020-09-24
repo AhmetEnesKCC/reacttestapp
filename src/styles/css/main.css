@@ -1,0 +1,50 @@
+* {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+}
+
+:root {
+  --ff: "VarelaRound";
+  --fc: white;
+  --fc-hd: white;
+  --hc: black;
+  --bg: white;
+}
+
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+@font-face {
+  src: url("../../assets/fonts/NanumGothic-Bold.ttf");
+  font-family: NanumGothic Bold;
+}
+
+@font-face {
+  src: url("../../assets/fonts/VarelaRound-Regular.ttf");
+  font-family: VarelaRound;
+}

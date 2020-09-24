@@ -1,0 +1,8 @@
+
+  {
+    "name": "meal_box",
+    "varsion": "0.3.0",
+    "selected_packages": ["redux","react-router","font awesome 5"],
+    "official": "true"
+  }
+  

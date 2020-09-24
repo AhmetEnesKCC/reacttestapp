@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: var(--ff);
+  font-size: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.sub {
+  font-family: var(--ff);
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  align-items: center;
+}

@@ -1,0 +1,140 @@
+.main_container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  font-family: var(--ff);
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 120px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px black solid;
+}
+
+.image_container {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.image_container img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.image_container img:hover {
+  transform: scale(1.08);
+}
+
+.info_container {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  width: calc(100vw - 600px);
+}
+
+.info_container .name {
+  font-size: 1.5em;
+  text-align: center;
+  background-color: var(--hc);
+  padding: 20px;
+  color: var(--fc);
+  border-radius: 10px;
+}
+
+.info_container .price {
+  font-size: 3em;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+.buy_btn {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border: 3px var(--hc) solid;
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column !important;
+  }
+
+  .main_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image_container {
+    width: 80%;
+  }
+
+  .image_container img {
+    width: 100%;
+    transition: 0.3s;
+  }
+
+  .image_container img:hover {
+    transform: none;
+  }
+
+  .info_container {
+    margin: 0;
+    height: auto;
+    width: 100vw;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .info_container .name {
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .info_container .price {
+    color: black;
+    width: 100%;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    box-sizing: border-box;
+  }
+  .image_container {
+    height: 200px;
+  }
+} ;

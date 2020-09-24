@@ -1,0 +1,25 @@
+.footer {
+  background-color: #707070;
+  height: 300px;
+  position: relative;
+}
+
+.copyRight {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  font-family: var(--ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .copyRight {
+    font-size: 1.2em;
+  }
+}
