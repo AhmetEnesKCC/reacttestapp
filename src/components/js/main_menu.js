@@ -3,7 +3,6 @@ import styles from "../module css/home.module.css";
 import { menus } from "../../assets/menu.json";
 import SubMenu from "./sub_menu";
 export default function MainMenu({ match }) {
-  console.log(match);
   return (
     <div className={styles.content}>
       {menus

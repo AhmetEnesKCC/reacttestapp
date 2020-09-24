@@ -5,7 +5,6 @@ import styles from "../module css/sub_menu.module.css";
 import { searchValueAction } from "../../redux/reducers";
 
 export default function SubMenu(props) {
-  console.log(props.index);
   const search_state = useSelector((state) => state.searching);
   const dispatch = useDispatch();
 

@@ -43,7 +43,6 @@ export default function SubMenuSelected({ match }) {
   const [totalPrice, setTotalPrice] = useState(undefined);
   const [noItem, setNoItem] = useState(false);
   const [addedItems, setAddedItems] = useState([]);
-  console.log(match);
   var myItem;
   myItem = menus
     .find((items) => items.key === "main")
