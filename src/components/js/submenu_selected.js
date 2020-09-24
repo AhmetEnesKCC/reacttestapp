@@ -202,7 +202,12 @@ export default function SubMenuSelected({ match }) {
       <div className={styles.main_menu_container}>
         <div className={styles.images_container}>
           <div className={styles.main_menu_image}>
-            <img src={typeof myItem === "object" && "/src/" + myItem.image}></img>
+            <img
+              src={
+                typeof myItem === "object" &&
+                "https://raw.githubusercontent.com/AhmetEnesKCC/reacttestapp/master/public/src/" + myItem.image
+              }
+            ></img>
           </div>
           <div className={styles.sub_title}>Secilen Extra Lezzetler</div>
           <div className={styles.sub_menu_images}>

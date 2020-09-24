@@ -17,7 +17,10 @@ export default function HomeCard(props) {
       <Link to={"/menuler/" + props.name.toLowerCase()} onClick={() => goTop()} style={{ textDecoration: "none" }}>
         <div className={styles.card} ref={homeCardRef}>
           <div className={styles.card_image}>
-            <img alt={props.name} src={"/src/" + props.image}></img>
+            <img
+              alt={props.name}
+              src={"https://raw.githubusercontent.com/AhmetEnesKCC/reacttestapp/master/public/src/" + props.image}
+            ></img>
           </div>
           <Parallax y={[-40, 50]}>
             <div className={[styles.card_title].join(" ")}>{props.name}</div>

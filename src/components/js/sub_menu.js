@@ -20,7 +20,9 @@ export default function SubMenu(props) {
         }}
       >
         <div className={styles.image_container}>
-          <img src={"/src/" + props.image}></img>
+          <img
+            src={"https://raw.githubusercontent.com/AhmetEnesKCC/reacttestapp/master/public/src/" + props.image}
+          ></img>
         </div>
         <div
           className={styles.info_container}
