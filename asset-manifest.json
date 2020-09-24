@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reacttestapp/static/css/main.dcbc11df.chunk.css",
+    "main.css": "/reacttestapp/static/css/main.70488e1b.chunk.css",
     "main.js": "/reacttestapp/static/js/main.4748863c.chunk.js",
     "main.js.map": "/reacttestapp/static/js/main.4748863c.chunk.js.map",
     "runtime-main.js": "/reacttestapp/static/js/runtime-main.9c87bce7.js",
@@ -8,9 +8,9 @@
     "static/js/2.0fd60553.chunk.js": "/reacttestapp/static/js/2.0fd60553.chunk.js",
     "static/js/2.0fd60553.chunk.js.map": "/reacttestapp/static/js/2.0fd60553.chunk.js.map",
     "index.html": "/reacttestapp/index.html",
-    "precache-manifest.8a9a39ecd2e090f00e0dc88babb87ac9.js": "/reacttestapp/precache-manifest.8a9a39ecd2e090f00e0dc88babb87ac9.js",
+    "precache-manifest.103166bc968853f95036b75e5b4f6522.js": "/reacttestapp/precache-manifest.103166bc968853f95036b75e5b4f6522.js",
     "service-worker.js": "/reacttestapp/service-worker.js",
-    "static/css/main.dcbc11df.chunk.css.map": "/reacttestapp/static/css/main.dcbc11df.chunk.css.map",
+    "static/css/main.70488e1b.chunk.css.map": "/reacttestapp/static/css/main.70488e1b.chunk.css.map",
     "static/js/2.0fd60553.chunk.js.LICENSE.txt": "/reacttestapp/static/js/2.0fd60553.chunk.js.LICENSE.txt",
     "static/media/main.css": "/reacttestapp/static/media/VarelaRound-Regular.159cb67f.ttf",
     "static/media/logo.jpg": "/reacttestapp/static/media/logo.8f27f5c5.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.9c87bce7.js",
     "static/js/2.0fd60553.chunk.js",
-    "static/css/main.dcbc11df.chunk.css",
+    "static/css/main.70488e1b.chunk.css",
     "static/js/main.4748863c.chunk.js"
   ]
 }
